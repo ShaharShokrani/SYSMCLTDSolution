@@ -1,0 +1,43 @@
+﻿[
+  {
+    "IsDeleted": false,    
+    "Name": "Shahar",
+    "CustomerNumber": "123456789"
+  },
+  {
+    "IsDeleted": false,
+    "Created": "2013-10-21T13:28:06.419Z",
+    "Name": "Shani",
+    "CustomerNumber": "123456777",
+    "Addresses": [
+      {
+        "IsDeleted": false,
+        "City": "Ashdod",
+        "Street": "David"
+      }
+    ]
+  },
+  {
+    "IsDeleted": false,
+    "Created": "2013-10-21T13:28:06.419Z",
+    "Name": "Rivka",
+    "CustomerNumber": "123456888",
+    "Contacts": [
+      {
+        "IsDeleted": false,
+        "Created": "2013-10-21T13:28:06.419Z",
+        "FullName": "Shahar"
+      },
+      {
+        "IsDeleted": false,
+        "Created": "2013-10-21T13:28:06.419Z",
+        "FullName": "Shani"
+      }
+    ]
+  },
+  {
+    "IsDeleted": true,    
+    "Name": "Yoni",
+    "CustomerNumber": "123456666"
+  }
+]
