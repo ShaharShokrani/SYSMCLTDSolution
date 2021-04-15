@@ -16,6 +16,7 @@ namespace SYSMCLTD
         [Key]
         public int Id { get; set; }
         public bool IsDeleted { get; set; }
+        
         public DateTime Created { get; set; }
         public string Name { get; set; }
         public string CustomerNumber { get; set; }

@@ -55,7 +55,9 @@ namespace SYSMCLTD
 
             modelBuilder.Entity<Contact>(entity =>
             {
-                entity.Property(e => e.Created).HasColumnType("datetime");
+                entity.Property(e => e.Created)
+                    .HasColumnType("datetime")
+                    .HasDefaultValueSql("(getdate())"); ;
 
                 entity.Property(e => e.FullName).IsRequired();
 
